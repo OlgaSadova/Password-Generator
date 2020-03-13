@@ -1,28 +1,5 @@
 # 03 JavaScript: Password Generator
 
-Create an application that generates a random password based on user-selected criteria. 
-    
-    
-    *
-    * confirm that length of the password at least 8 and no more 128 characters 
-    * prompted for the length of the password
-
-*GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose var main = document.querySelector("h2");
-main.style.textDecoration.fontSize = "underline", "50px"; and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-
-The following image demonstrates the application functionality:
+The application generates a random password based on password length criteria provided by user.
+Series of prompts ask a user a set of question one of which request password length
+Generated password is presented in special window. To regenerate new password a user can use Generate password button.
